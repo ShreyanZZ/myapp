@@ -99,7 +99,7 @@ export default function App() {
         }}
       >
         <Paper sx={{width:350,height: 200,ml:6,backgroundColor:'black',color:'white',whiteSpace:'normal'}}  >
-        Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.ksadjlsajdaslflsajjlsaasfjahlfsljalsflhlhlhlhlhlhlljkkkkkkk
+        Lorem Ipsum has been the industrys standard dummy text ever since the 1500s.ksadjlsajdaslflsajjlsaasfjahlfsljalsflhlhlhlhlhlhlljkkkkkkk
 
         </Paper  >
         <Paper sx={{width:400,height: 300,ml:40}} >
