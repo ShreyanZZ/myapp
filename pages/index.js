@@ -17,7 +17,7 @@ import Paper from '@mui/material/Paper';
 export default function App() {
     
     return (
-        <Box sx={{width: 1280, height:700, backgroundColor:'black' }} >
+        <Box sx={{width: 1280, height:735, backgroundColor:'black' }} >
         
         <Typography variant='h3' color='white' sx={{mt: 0, ml:5 ,pt:8, fontWeight:'bold'} } > Contact Us</Typography>
         {/* <Grid container spacing={10}>
@@ -82,47 +82,33 @@ export default function App() {
       <Button variant="contained" sx={{mt:2,ml:38 ,width:100,height:40}}>Send</Button>
       </Paper>
   </Box>
-      
-      
+  
+        <Box sx={{ mt:5,width: 1280, height: 200, backgroundColor: 'black' }}>
+
+            <Typography variant='h3' color='white' sx={{ mt: 0, ml: 5, pt: 8, fontWeight: 'bold' }}> About Us</Typography>
         </Box>
-        
-        
-    );
-}
 
-
-// import * as React from 'react';
-// import Box from '@mui/material/Box';
-// import Typography from '@mui/material/Typography';
-// import Paper from '@mui/material/Paper';
-// import { Card, CardActionArea, CardMedia } from '@mui/material';
-
-// export default function App(){ sx={{ width: '100%' }}
-//     return (
-//         <><Box sx={{ width: 1280, height: 200, backgroundColor: 'black' }}>
-
-//             <Typography variant='h3' color='white' sx={{ mt: 0, ml: 5, pt: 8, fontWeight: 'bold' }}> About Us</Typography>
-//         </Box>
-
-//         <Box sx={{backgroundColor:'black',height:377}}>
-//         <Box
-//         sx={{
-//           display: 'flex',
-//           flexWrap: 'wrap',
-//           '& > :not(style)': {
+        <Box sx={{backgroundColor:'black',height:377}}>
+        <Box
+        sx={{
+          display: 'flex',
+          flexWrap: 'wrap',
+          '& > :not(style)': {
             
-//           },
-//         }}
-//       >
-//         <Paper sx={{width:350,height: 200,ml:6,backgroundColor:'black',color:'white',whiteSpace:'normal'}}  >
-//         Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.ksadjlsajdaslflsajjlsaasfjahlfsljalsflhlhlhlhlhlhlljkkkkkkk
+          },
+        }}
+      >
+        <Paper sx={{width:350,height: 200,ml:6,backgroundColor:'black',color:'white',whiteSpace:'normal'}}  >
+        Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.ksadjlsajdaslflsajjlsaasfjahlfsljalsflhlhlhlhlhlhlljkkkkkkk
 
-//         </Paper  >
-//         <Paper sx={{width:400,height: 300,ml:40}} >
-//           <CardActionArea>
-//           <CardMedia component="img" height='300' width='200' image="https://upload.wikimedia.org/wikipedia/commons/thumb/4/40/Honda_prototype_robots_Honda_Collection_Hall.jpg/1200px-Honda_prototype_robots_Honda_Collection_Hall.jpg"></CardMedia>
-//           </CardActionArea>
-//         </Paper  >
-//       </Box></Box></>
-//     );
-// }
+        </Paper  >
+        <Paper sx={{width:400,height: 300,ml:40}} >
+          <CardActionArea>
+          <CardMedia component="img" height='300' width='200' image="https://upload.wikimedia.org/wikipedia/commons/thumb/4/40/Honda_prototype_robots_Honda_Collection_Hall.jpg/1200px-Honda_prototype_robots_Honda_Collection_Hall.jpg"></CardMedia>
+          </CardActionArea>
+        </Paper  >
+        
+      </Box></Box> </Box>
+    );
+    
+}
